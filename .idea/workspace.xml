@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d600f91-79c0-43d2-b07f-0b6e6a3c9184" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/.idea/DropPHP.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/.idea/dictionaries/Fabian.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/.idea/php-test-framework.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/.idea/php.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/DropboxClient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/samples/demo-lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/samples/simple.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/samples/upload-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/tests/AccountInfoTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/tests/CreateFolderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/tests/UploadTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drop/tests/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/ChangeLog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/ReadMe.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/examples/account-info.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/examples/authorize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/examples/create-shareable-link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/examples/delta.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/examples/direct-link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/examples/download-file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/examples/get-metadata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/examples/helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/examples/link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/examples/test-ssl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/examples/upgrade-oauth1-token.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/examples/upload-file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/examples/web-file-browser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/AppInfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/AppInfoLoadException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/ArrayEntryStore.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/AuthBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/AuthInfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/AuthInfoLoadException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Checker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Curl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/CurlStreamRelay.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/DeserializeException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/DropboxMetadataHeaderCatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Exception/BadRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Exception/BadResponse.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Exception/BadResponseCode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Exception/InvalidAccessToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Exception/NetworkIO.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Exception/OverQuota.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Exception/ProtocolError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Exception/RetryLater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Exception/ServerError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Host.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/HttpResponse.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/OAuth1AccessToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/OAuth1Upgrader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Path.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/RequestUtil.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/RootCertificates.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/SSLTester.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/SdkVersion.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Security.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/StreamReadException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/Util.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/ValueStore.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/WebAuth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/WebAuthBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/WebAuthException/BadRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/WebAuthException/BadState.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/WebAuthException/Csrf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/WebAuthException/NotApproved.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/WebAuthException/Provider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/WebAuthNoRedirect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/WriteMode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/certs/trusted-certs.crt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/lib/Dropbox/strict.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/support/check-style-codesniffer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/support/check-style-phpcsfixer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/support/codesniffer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/support/generate-api-docs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/test/ClientTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/test/ConfigLoadTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/test/ValidationTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox-sdk/test/upload.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dropbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/config.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/private.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/ChangeLog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/ReadMe.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/account-info.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/authorize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/create-shareable-link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/delta.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/direct-link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/download-file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/get-metadata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/test-ssl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/upgrade-oauth1-token.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/upload-file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/examples/web-file-browser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/AppInfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/AppInfoLoadException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/ArrayEntryStore.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/AuthBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/AuthInfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/AuthInfoLoadException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Checker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Curl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/CurlStreamRelay.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/DeserializeException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/DropboxMetadataHeaderCatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/BadRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/BadResponse.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/BadResponseCode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/InvalidAccessToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/NetworkIO.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/OverQuota.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/ProtocolError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/RetryLater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Exception/ServerError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Host.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/HostLoadException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/HttpResponse.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/OAuth1AccessToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/OAuth1Upgrader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Path.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/RequestUtil.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/RootCertificates.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/SSLTester.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/SdkVersion.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Security.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/StreamReadException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/Util.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/ValueStore.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuthBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuthException/BadRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuthException/BadState.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuthException/Csrf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuthException/NotApproved.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuthException/Provider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WebAuthNoRedirect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/WriteMode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/certs/trusted-certs.crt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/lib/Dropbox/strict.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/support/check-style-codesniffer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/support/check-style-phpcsfixer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/support/codesniffer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/support/generate-api-docs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/test/ClientTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/test/ConfigLoadTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/test/UtilTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/test/ValidationTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/dropbox/dropbox-sdk/test/upload.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/UPGRADING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/ClientInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/SetCookie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/BadResponseException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ClientException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ConnectException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/GuzzleException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/SeekException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ServerException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/TooManyRedirectsException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/TransferException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlFactoryInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlMultiHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/EasyHandle.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/MockHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/StreamHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/HandlerStack.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/MessageFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Middleware.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Pool.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/RequestOptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/RetryMiddleware.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/TransferStats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/UriTemplate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions_include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/AggregateException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/CancellationException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/Coroutine.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/EachPromise.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/FulfilledPromise.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/Promise.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/PromiseInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/PromisorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/RejectedPromise.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/RejectionException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/TaskQueue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/TaskQueueInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/functions_include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/AppendStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/BufferStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/CachingStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/DroppingStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/FnStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/InflateStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/LazyOpenStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/LimitStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MessageTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MultipartStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/NoSeekStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/PumpStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Response.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/ServerRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Stream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/StreamDecoratorTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/StreamWrapper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UploadedFile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Uri.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UriNormalizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UriResolver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/functions_include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/http-message/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/http-message/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/http-message/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/http-message/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/http-message/src/MessageInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/http-message/src/RequestInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/http-message/src/ResponseInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/http-message/src/ServerRequestInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/http-message/src/StreamInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/http-message/src/UploadedFileInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/http-message/src/UriInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/spatie/dropbox-api/.styleci.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/spatie/dropbox-api/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/spatie/dropbox-api/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/spatie/dropbox-api/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/spatie/dropbox-api/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/spatie/dropbox-api/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/spatie/dropbox-api/src/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/spatie/dropbox-api/src/Exceptions/BadRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/spatie/dropbox-api/src/UploadSessionCursor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zip.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dropbox7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox7" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d600f91-79c0-43d2-b07f-0b6e6a3c9184" name="Default" comment="" />
+      <created>1528080274219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528080274219</updated>
+      <workItem from="1528080276321" duration="2168000" />
+      <workItem from="1528339856602" duration="38000" />
+      <workItem from="1528340499817" duration="117000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2323000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup.php" />
+    <entry file="file://$PROJECT_DIR$/test/test.txt" />
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
