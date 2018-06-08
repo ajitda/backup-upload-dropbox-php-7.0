@@ -16,9 +16,9 @@ $month = date("F");
 $year = date("Y");
 $time = date("h:i A");
 
-$database = 'rtg';
+$database = 'dbname';
 $user = 'root';
-$pass = 'Nop@MySQL2017!#';
+$pass = 'password';
 $host = 'localhost';
 
 $db_file = "rtg_".$day."_".$month."_".$year.".sql";
