@@ -26,9 +26,9 @@ $db_file = "rtg_".$day."_".$month."_".$year.".sql";
 exec("mysqldump --user={$user} --password={$pass} --host={$host} {$database} --result-file={$db_file} 2>&1", $output);
 
 
-$token = 'yR0gg4AYBcIAAAAAAAADkngaO49IM1c4SJ2BTMbl-dBcTHJMAUVP2kgjZupkOOgg';
-$clientId = '77q37l8xr39jzim';
-$clientSecret = 'c8yg4nf87ur1mlr';
+$token = '';
+$clientId = '';
+$clientSecret = '';
 
 //$projectFolder = $month.","."$year"."/".$day."-".$month." ".$time." GMT +6"
 $app = new DropboxApp($clientId, $clientSecret, $token);
@@ -76,11 +76,12 @@ function zipData($source, $destination) {
                     $iterator->setFlags(RecursiveDirectoryIterator::SKIP_DOTS);
                     $files = new RecursiveIteratorIterator($iterator, RecursiveIteratorIterator::SELF_FIRST);
                     foreach ($files as $file) {
-                        // $file = realpath($file);
+                         $file = realpath($file);
                         if (is_dir($file)) {
                             $zip->addEmptyDir(str_replace($source . '/', '', $file . '/'));
                         } else if (is_file($file)) {
-                            $zip->addFromString(str_replace($source . '/', '', $file), file_get_contents($file));
+                            //$zip->addFromString(str_replace($source . '/', '', $file), file_get_contents($file));
+				$zip->addFile($file, str_replace($source . '/', '', $file));
                         }
                     }
                 } else if (is_file($source)) {
